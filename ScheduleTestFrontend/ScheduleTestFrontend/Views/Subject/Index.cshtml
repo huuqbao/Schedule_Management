@@ -1,0 +1,113 @@
+﻿@*Ban đầu*@
+@* @model IEnumerable<ScheduleTestFrontend.Models.Subject> *@
+
+@* <div asp-validation-summary="All" class="text-danger"></div> *@
+
+@* <h2>Môn Học</h2> *@
+
+@* @if (TempData["ErrorMessage"] != null) *@
+@* { *@
+@*     <div class="alert alert-danger"> *@
+@*         @TempData["ErrorMessage"] *@
+@*     </div> *@
+@* } *@
+
+@* <button style="background-color: aquamarine" onclick="location.href='@Url.Action("Insert", "Subject")'">Thêm môn học</button> *@
+
+@* @if (Model != null && Model.Any()) *@
+@* { *@
+@*     <table class="table table-bordered"> *@
+@*         <thead> *@
+@*             <tr> *@
+@*                 <th>Tên môn học</th> *@
+@*                 <th>Mô tả</th> *@
+@*             </tr> *@
+@*         </thead> *@
+@*         <tbody> *@
+@*             @foreach (var subject in Model) *@
+@*             { *@
+@*                 <tr> *@
+@*                     <td>@subject.Name</td> *@
+@*                     <td>@subject.Description</td> *@
+@*                     <td> *@
+@*                         <a asp-controller="Subject" asp-action="Update" asp-route-id="@subject.Id" class="btn btn-warning">Sửa</a> *@
+@*                         <form asp-controller="Subject" asp-action="Delete" method="post" style="display:inline;"> *@
+@*                             <input type="hidden" name="id" value="@subject.Id" /> *@
+@*                             <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa môn học này không?');">Xóa</button> *@
+@*                         </form> *@
+@*                     </td> *@
+@*                 </tr> *@
+@*             } *@
+@*         </tbody> *@
+@*     </table> *@
+@* } *@
+@* else *@
+@* { *@
+@*     <p>Không có môn học nào để hiển thị.</p> *@
+@* } *@
+
+
+
+
+@*Tìm lịch học theo môn học*@
+@model IEnumerable<ScheduleTestFrontend.Models.Subject>
+
+@{
+    ViewData["Title"] = "Môn học";
+}
+
+<h2>Môn Học</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<form method="get" asp-action="Index" class="mb-4">
+    <div class="input-group">
+        <input type="text" name="searchKeyword" class="form-control" placeholder="Nhập tên môn học để tìm..."
+               value="@ViewBag.SearchKeyword" />
+        <div class="input-group-append">
+            <button class="btn btn-success" type="submit">Tìm kiếm</button>
+            <a href="@Url.Action("Index", "Subject")" class="btn btn-outline-secondary">Reset</a>
+        </div>
+    </div>
+</form>
+
+<button style="background-color: aquamarine" onclick="location.href='@Url.Action("Insert", "Subject")'">Thêm môn học</button>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered mt-3">
+        <thead>
+            <tr>
+                <th>Tên môn học</th>
+                <th>Mô tả</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var subject in Model)
+            {
+                <tr>
+                    <td>@subject.Name</td>
+                    <td>@subject.Description</td>
+                    <td>
+                        <a asp-controller="Subject" asp-action="Update" asp-route-id="@subject.Id" class="btn btn-warning">Sửa</a>
+                        <form asp-controller="Subject" asp-action="Delete" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@subject.Id" />
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa môn học này không?');">Xóa</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Không có môn học nào để hiển thị.</p>
+}
+

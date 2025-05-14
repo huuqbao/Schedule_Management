@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "vPvJUKI3+7Q2VlLcyVebUvG+JuAGlv8Bog2MCFby49Y=",
+  "Source": "ScheduleTestBackend",
+  "BasePath": "_content/ScheduleTestBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

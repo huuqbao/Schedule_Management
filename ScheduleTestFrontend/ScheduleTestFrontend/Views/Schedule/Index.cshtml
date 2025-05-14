@@ -1,0 +1,142 @@
+﻿@* @model IEnumerable<ScheduleTestFrontend.Models.Schedule> *@
+
+@* @{ *@
+@*     ViewData["Title"] = "Lịch Học"; *@
+@* } *@
+
+@* <h2>Lịch Học</h2> *@
+@* <button style="background-color: aquamarine" onclick="location.href='@Url.Action("Insert", "Schedule")'">Thêm lịch học</button> *@
+
+@* @if (Model != null && Model.Any()) *@
+@* { *@
+@*     <table class="table table-bordered"> *@
+@*         <thead> *@
+@*             <tr> *@
+@*                 <th>Mã Người Dùng</th> *@
+@*                 <th>Tên Môn Học</th> *@
+@*                 <th>Thứ</th> *@
+@*                 <th>Thời Gian Bắt Đầu</th> *@
+@*                 <th>Thời Gian Kết Thúc</th> *@
+@*                 <th>Hành Động</th> *@
+@*             </tr> *@
+@*         </thead> *@
+@*         <tbody> *@
+@*             @foreach (var schedule in Model) *@
+@*             { *@
+@*                 <tr> *@
+@*                     <td>@schedule.UserId</td> *@
+@*                     <td>@schedule.SubjectName</td> *@
+@*                     <td>@schedule.DayOfWeek</td> *@
+@*                     <td>@schedule.StartTime.ToString(@"hh\:mm")</td> *@
+@*                     <td>@schedule.EndTime.ToString(@"hh\:mm")</td> *@
+@*                     <td> *@
+@*                         <a asp-controller="Schedule" asp-action="Update" asp-route-id="@schedule.Id" class="btn btn-warning">Sửa</a> *@
+@*                         <form asp-controller="Schedule" asp-action="Delete" method="post" style="display:inline;"> *@
+@*                             <input type="hidden" name="id" value="@schedule.Id" /> *@
+@*                             <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa lịch học này không?');">Xóa</button> *@
+@*                         </form> *@
+@*                     </td> *@
+@*                 </tr> *@
+@*             } *@
+@*         </tbody> *@
+@*     </table> *@
+@* } *@
+@* else *@
+@* { *@
+@*     <p>Không có lịch học nào để hiển thị.</p> *@
+@* } *@
+
+
+
+
+
+@* Tìm kiếm lịch học theo môn học và Lấy danh sách lịch học theo thứ trong tuần
+, nếu không muốn Lấy danh sách lịch học theo thứ trong tuần thì chỉ cần xóa toàn bộ <form method="get" asp-action="Index" class="mb-4">  *@
+@model IEnumerable<ScheduleTestFrontend.Models.Schedule>
+
+<h2>Lịch Học</h2>
+<button style="background-color: aquamarine" onclick="location.href='@Url.Action("Insert", "Schedule")'">Thêm lịch học</button>
+
+<!-- Tìm theo tên môn học -->
+<form method="get" asp-action="Index" class="mb-4">
+    <div class="input-group">
+        <input type="text" name="searchKeyword" class="form-control" placeholder="Tìm theo tên môn học..."
+               value="@ViewBag.SearchKeyword" />
+        <div class="input-group-append">
+            <button class="btn btn-success" type="submit">Tìm</button>
+            <a href="@Url.Action("Index", "Schedule")" class="btn btn-outline-secondary">Reset</a>
+        </div>
+    </div>
+</form>
+
+<!-- Tìm theo tên môn học lọc theo thứ -->
+<form method="get" asp-action="Index" class="mb-4">
+    <div class="form-row">
+        <div class="col-md-4 mb-2">
+            <input type="text" name="searchKeyword" class="form-control" placeholder="Tìm theo tên môn học..."
+                   value="@ViewBag.SearchKeyword" />
+        </div>
+        <div class="col-md-3 mb-2">
+            <select name="dayOfWeek" class="form-control">
+                <option value="">-- Tất cả các ngày --</option>
+                <option value="Monday" selected="@(ViewBag.DayOfWeek == "Monday" ? "selected" : null)">Thứ 2</option>
+                <option value="Tuesday" selected="@(ViewBag.DayOfWeek == "Tuesday" ? "selected" : null)">Thứ 3</option>
+                <option value="Wednesday" selected="@(ViewBag.DayOfWeek == "Wednesday" ? "selected" : null)">Thứ 4</option>
+                <option value="Thursday" selected="@(ViewBag.DayOfWeek == "Thursday" ? "selected" : null)">Thứ 5</option>
+                <option value="Friday" selected="@(ViewBag.DayOfWeek == "Friday" ? "selected" : null)">Thứ 6</option>
+                <option value="Saturday" selected="@(ViewBag.DayOfWeek == "Saturday" ? "selected" : null)">Thứ 7</option>
+            </select>
+        </div>
+        <div class="col-md-5">
+            <div class="btn-group" role="group">
+                <button type="submit" class="btn btn-success">Lọc</button>
+                <a href="@Url.Action("Index", "Schedule")" class="btn btn-outline-secondary">Reset</a>
+            </div>
+        </div>
+    </div>
+</form>
+
+<!-- Hiển thị số lượng môn học -->
+<div class="mb-3">
+    <p>Đã tìm thấy @ViewBag.TotalSubjects môn học.</p>
+</div>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Mã Người Dùng</th>
+                <th>Tên Môn Học</th>
+                <th>Thứ</th>
+                <th>Thời Gian Bắt Đầu</th>
+                <th>Thời Gian Kết Thúc</th>
+                <th>Hành Động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var schedule in Model)
+            {
+                <tr>
+                    <td>@schedule.UserId</td>
+                    <td>@schedule.SubjectName</td>
+                    <td>@schedule.DayOfWeek</td>
+                    <td>@schedule.StartTime.ToString(@"hh\:mm")</td>
+                    <td>@schedule.EndTime.ToString(@"hh\:mm")</td>
+                    <td>
+                        <a asp-controller="Schedule" asp-action="Update" asp-route-id="@schedule.Id" class="btn btn-warning">Sửa</a>
+                        <form asp-controller="Schedule" asp-action="Delete" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@schedule.Id" />
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa lịch học này không?');">Xóa</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Không có lịch học nào để hiển thị.</p>
+}
+

@@ -1,0 +1,474 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\abchiendai\\ScheduleTestBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71F201A1-69CD-4FCE-86EC-E749ECDF86D2}|ScheduleTestBackend\\ScheduleTestBackend.csproj|e:\\abchiendai\\scheduletestbackend\\scheduletestbackend\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F201A1-69CD-4FCE-86EC-E749ECDF86D2}|ScheduleTestBackend\\ScheduleTestBackend.csproj|solutionrelative:scheduletestbackend\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\dataacceslayer\\repositories\\schedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\repositories\\schedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\dataacceslayer\\models\\schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\models\\schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38983D88-4E12-424C-BB92-07EA7C7CEF22}|BusinessAccesLayer\\BusinessAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\businessacceslayer\\services\\scheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38983D88-4E12-424C-BB92-07EA7C7CEF22}|BusinessAccesLayer\\BusinessAccesLayer.csproj|solutionrelative:businessacceslayer\\services\\scheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38983D88-4E12-424C-BB92-07EA7C7CEF22}|BusinessAccesLayer\\BusinessAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\businessacceslayer\\interfaceservices\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38983D88-4E12-424C-BB92-07EA7C7CEF22}|BusinessAccesLayer\\BusinessAccesLayer.csproj|solutionrelative:businessacceslayer\\interfaceservices\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\dataacceslayer\\repositoriesinterface\\ischedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\repositoriesinterface\\ischedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\dataacceslayer\\repositories\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\repositories\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\dataacceslayer\\models\\subjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\models\\subjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71F201A1-69CD-4FCE-86EC-E749ECDF86D2}|ScheduleTestBackend\\ScheduleTestBackend.csproj|e:\\abchiendai\\scheduletestbackend\\scheduletestbackend\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F201A1-69CD-4FCE-86EC-E749ECDF86D2}|ScheduleTestBackend\\ScheduleTestBackend.csproj|solutionrelative:scheduletestbackend\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\dataacceslayer\\repositoriesinterface\\isubjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\repositoriesinterface\\isubjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38983D88-4E12-424C-BB92-07EA7C7CEF22}|BusinessAccesLayer\\BusinessAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\businessacceslayer\\interfaceservices\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38983D88-4E12-424C-BB92-07EA7C7CEF22}|BusinessAccesLayer\\BusinessAccesLayer.csproj|solutionrelative:businessacceslayer\\interfaceservices\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38983D88-4E12-424C-BB92-07EA7C7CEF22}|BusinessAccesLayer\\BusinessAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\businessacceslayer\\services\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38983D88-4E12-424C-BB92-07EA7C7CEF22}|BusinessAccesLayer\\BusinessAccesLayer.csproj|solutionrelative:businessacceslayer\\services\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71F201A1-69CD-4FCE-86EC-E749ECDF86D2}|ScheduleTestBackend\\ScheduleTestBackend.csproj|e:\\abchiendai\\scheduletestbackend\\scheduletestbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F201A1-69CD-4FCE-86EC-E749ECDF86D2}|ScheduleTestBackend\\ScheduleTestBackend.csproj|solutionrelative:scheduletestbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\dataacceslayer\\enum\\weekday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\enum\\weekday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71F201A1-69CD-4FCE-86EC-E749ECDF86D2}|ScheduleTestBackend\\ScheduleTestBackend.csproj|e:\\abchiendai\\scheduletestbackend\\scheduletestbackend\\scheduletestbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{71F201A1-69CD-4FCE-86EC-E749ECDF86D2}|ScheduleTestBackend\\ScheduleTestBackend.csproj|solutionrelative:scheduletestbackend\\scheduletestbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\dataacceslayer\\repositoriesinterface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\repositoriesinterface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\dataacceslayer\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\dataacceslayer\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\dataacceslayer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\dataacceslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38983D88-4E12-424C-BB92-07EA7C7CEF22}|BusinessAccesLayer\\BusinessAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\businessacceslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38983D88-4E12-424C-BB92-07EA7C7CEF22}|BusinessAccesLayer\\BusinessAccesLayer.csproj|solutionrelative:businessacceslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71F201A1-69CD-4FCE-86EC-E749ECDF86D2}|ScheduleTestBackend\\ScheduleTestBackend.csproj|e:\\abchiendai\\scheduletestbackend\\scheduletestbackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F201A1-69CD-4FCE-86EC-E749ECDF86D2}|ScheduleTestBackend\\ScheduleTestBackend.csproj|solutionrelative:scheduletestbackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|e:\\abchiendai\\scheduletestbackend\\dataacceslayer\\migrations\\20250502170405_baonguyennn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B68856-0E91-4A34-8EFF-B7B0A481DE51}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\migrations\\20250502170405_baonguyennn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Migrations\\20250502170237_BaoNguyennn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccesLayer\\Migrations\\20250502170237_BaoNguyennn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Migrations\\20250502165926_BaoNguyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccesLayer\\Migrations\\20250502165926_BaoNguyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71F201A1-69CD-4FCE-86EC-E749ECDF86D2}|ScheduleTestBackend\\ScheduleTestBackend.csproj|e:\\abchiendai\\scheduletestbackend\\scheduletestbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{71F201A1-69CD-4FCE-86EC-E749ECDF86D2}|ScheduleTestBackend\\ScheduleTestBackend.csproj|solutionrelative:scheduletestbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Migrations\\20250415043328_BaoNguyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccesLayer\\Migrations\\20250415043328_BaoNguyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 97,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SubjectRepository.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Repositories\\SubjectRepository.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\Repositories\\SubjectRepository.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Repositories\\SubjectRepository.cs",
+              "RelativeToolTip": "DataAccesLayer\\Repositories\\SubjectRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwDcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:11:51.062Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScheduleRepository.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Repositories\\ScheduleRepository.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\Repositories\\ScheduleRepository.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Repositories\\ScheduleRepository.cs",
+              "RelativeToolTip": "DataAccesLayer\\Repositories\\ScheduleRepository.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAUwIAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:19:21.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScheduleController.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\ScheduleTestBackend\\Controllers\\ScheduleController.cs",
+              "RelativeDocumentMoniker": "ScheduleTestBackend\\Controllers\\ScheduleController.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\ScheduleTestBackend\\Controllers\\ScheduleController.cs",
+              "RelativeToolTip": "ScheduleTestBackend\\Controllers\\ScheduleController.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:22:39.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Schedules.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Models\\Schedules.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\Models\\Schedules.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Models\\Schedules.cs",
+              "RelativeToolTip": "DataAccesLayer\\Models\\Schedules.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:34:41.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScheduleService.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\BusinessAccesLayer\\Services\\ScheduleService.cs",
+              "RelativeDocumentMoniker": "BusinessAccesLayer\\Services\\ScheduleService.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\BusinessAccesLayer\\Services\\ScheduleService.cs",
+              "RelativeToolTip": "BusinessAccesLayer\\Services\\ScheduleService.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwv1oAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:10:10.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IScheduleService.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\BusinessAccesLayer\\InterfaceServices\\IScheduleService.cs",
+              "RelativeDocumentMoniker": "BusinessAccesLayer\\InterfaceServices\\IScheduleService.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\BusinessAccesLayer\\InterfaceServices\\IScheduleService.cs",
+              "RelativeToolTip": "BusinessAccesLayer\\InterfaceServices\\IScheduleService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA2wB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:08:58.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IScheduleRepository.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\RepositoriesInterface\\IScheduleRepository.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\RepositoriesInterface\\IScheduleRepository.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\RepositoriesInterface\\IScheduleRepository.cs",
+              "RelativeToolTip": "DataAccesLayer\\RepositoriesInterface\\IScheduleRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:11:16.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Subjects.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Models\\Subjects.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\Models\\Subjects.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Models\\Subjects.cs",
+              "RelativeToolTip": "DataAccesLayer\\Models\\Subjects.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T06:19:15.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ISubjectService.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\BusinessAccesLayer\\InterfaceServices\\ISubjectService.cs",
+              "RelativeDocumentMoniker": "BusinessAccesLayer\\InterfaceServices\\ISubjectService.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\BusinessAccesLayer\\InterfaceServices\\ISubjectService.cs",
+              "RelativeToolTip": "BusinessAccesLayer\\InterfaceServices\\ISubjectService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA3wBQAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T07:54:02.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SubjectService.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\BusinessAccesLayer\\Services\\SubjectService.cs",
+              "RelativeDocumentMoniker": "BusinessAccesLayer\\Services\\SubjectService.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\BusinessAccesLayer\\Services\\SubjectService.cs",
+              "RelativeToolTip": "BusinessAccesLayer\\Services\\SubjectService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAA2wEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T07:54:00.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ISubjectRepository.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\RepositoriesInterface\\ISubjectRepository.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\RepositoriesInterface\\ISubjectRepository.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\RepositoriesInterface\\ISubjectRepository.cs",
+              "RelativeToolTip": "DataAccesLayer\\RepositoriesInterface\\ISubjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:12:21.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\ScheduleTestBackend\\Controllers\\SubjectController.cs",
+              "RelativeDocumentMoniker": "ScheduleTestBackend\\Controllers\\SubjectController.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\ScheduleTestBackend\\Controllers\\SubjectController.cs",
+              "RelativeToolTip": "ScheduleTestBackend\\Controllers\\SubjectController.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAcwK8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:22:53.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\ScheduleTestBackend\\Program.cs",
+              "RelativeDocumentMoniker": "ScheduleTestBackend\\Program.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\ScheduleTestBackend\\Program.cs",
+              "RelativeToolTip": "ScheduleTestBackend\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:18:19.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WeekDay.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Enum\\WeekDay.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\Enum\\WeekDay.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Enum\\WeekDay.cs",
+              "RelativeToolTip": "DataAccesLayer\\Enum\\WeekDay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T05:39:26.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ScheduleTestBackend.csproj",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\ScheduleTestBackend\\ScheduleTestBackend.csproj",
+              "RelativeDocumentMoniker": "ScheduleTestBackend\\ScheduleTestBackend.csproj",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\ScheduleTestBackend\\ScheduleTestBackend.csproj",
+              "RelativeToolTip": "ScheduleTestBackend\\ScheduleTestBackend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-11T11:22:31.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\RepositoriesInterface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\RepositoriesInterface\\IUserRepository.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\RepositoriesInterface\\IUserRepository.cs",
+              "RelativeToolTip": "DataAccesLayer\\RepositoriesInterface\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:55:22.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\Repositories\\GenericRepository.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "DataAccesLayer\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:57:53.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "DataAccesLayer\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:34:50.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Users.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\Models\\Users.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Models\\Users.cs",
+              "RelativeToolTip": "DataAccesLayer\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:40:20.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "DataAccesLayer\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAawBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:57:27.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\BusinessAccesLayer\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinessAccesLayer\\Services\\UserService.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\BusinessAccesLayer\\Services\\UserService.cs",
+              "RelativeToolTip": "BusinessAccesLayer\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAASwBEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:20:41.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\ScheduleTestBackend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ScheduleTestBackend\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\ScheduleTestBackend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ScheduleTestBackend\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:03:52.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250502170237_BaoNguyennn.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Migrations\\20250502170237_BaoNguyennn.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\Migrations\\20250502170237_BaoNguyennn.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Migrations\\20250502170237_BaoNguyennn.cs",
+              "RelativeToolTip": "DataAccesLayer\\Migrations\\20250502170237_BaoNguyennn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T17:02:37.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250502165926_BaoNguyen.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Migrations\\20250502165926_BaoNguyen.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\Migrations\\20250502165926_BaoNguyen.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Migrations\\20250502165926_BaoNguyen.cs",
+              "RelativeToolTip": "DataAccesLayer\\Migrations\\20250502165926_BaoNguyen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T16:59:26.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250502170405_BaoNguyennn.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Migrations\\20250502170405_BaoNguyennn.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\Migrations\\20250502170405_BaoNguyennn.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Migrations\\20250502170405_BaoNguyennn.cs",
+              "RelativeToolTip": "DataAccesLayer\\Migrations\\20250502170405_BaoNguyennn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T17:04:06.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\ScheduleTestBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "ScheduleTestBackend\\appsettings.json",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\ScheduleTestBackend\\appsettings.json",
+              "RelativeToolTip": "ScheduleTestBackend\\appsettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T04:25:00.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250415043328_BaoNguyen.cs",
+              "DocumentMoniker": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Migrations\\20250415043328_BaoNguyen.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\Migrations\\20250415043328_BaoNguyen.cs",
+              "ToolTip": "E:\\abchiendai\\ScheduleTestBackend\\DataAccesLayer\\Migrations\\20250415043328_BaoNguyen.cs",
+              "RelativeToolTip": "DataAccesLayer\\Migrations\\20250415043328_BaoNguyen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:33:29.037Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
